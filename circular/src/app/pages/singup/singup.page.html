@@ -1,0 +1,46 @@
+
+<ion-content [fullscreen]="true">
+  
+  <h1>Crea tu cuenta</h1>
+
+  <div class="icon">
+    <ion-img src="https://img.freepik.com/vector-premium/personas-reciclando-basura-basura_23-2148524155.jpg" id="logo"></ion-img>
+  </div>
+
+  <div class="case">
+
+    <ion-item>
+      <ion-label color="medium" position="floating">Correo Electronico</ion-label>
+      <ion-input type="text" placeholder="Ingrese su correo electronico"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="medium" position="floating">Nombre Completo</ion-label>
+      <ion-input type="text" placeholder="Ingrese su nombre completo"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="medium" position="floating">Nombre de usuario</ion-label>
+      <ion-input type="text" placeholder="Ingrese su nombre de usuario"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="medium" position="floating">Contraseña</ion-label>
+      <ion-input type="password" placeholder="Ingrese su contraseña"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="medium" position="floating"> Confirmar Contraseña</ion-label>
+      <ion-input type="password" placeholder="Confirme su contraseña"></ion-input>
+    </ion-item>
+    <br>
+    
+    <ion-button color="success" expand="full" type="submit" shape="round" [routerLink]="['/welcome']">Crear</ion-button>
+    <br>
+    <p>Tiene usted una cuenta? <span id="link" [routerLink]="['/login']" > Inicie sesión</span></p>
+  </div>
+  
+    
+    
+  
+</ion-content>

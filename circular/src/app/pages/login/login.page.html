@@ -1,0 +1,26 @@
+<ion-content [fullscreen]="true">
+  
+  <h1>Un gusto verte por aquí!</h1>
+
+  <div class="icon">
+    <ion-img src="https://img.freepik.com/vector-premium/personas-reciclando-basura-basura_23-2148524155.jpg" id="logo"></ion-img>
+  </div>
+
+  <div class="case">
+
+    <ion-item>
+      <ion-label color="medium" position="floating">Nombre de usuario</ion-label>
+      <ion-input type="text" placeholder="Ingrese su nombre de usuario"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="medium" position="floating">Contraseña</ion-label>
+      <ion-input type="password" placeholder="Ingrese su contraseña"></ion-input>
+    </ion-item>
+
+    <br>
+    
+    <ion-button color="success" expand="full" type="submit" shape="round" [routerLink]="['/login']">Crear</ion-button>
+    
+  </div>
+</ion-content>
